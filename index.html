@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;1,9..40,200;1,9..40,400&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container " style="background-color: rgb(245,245,237);">
+    <nav class="navbar navbar-expand-lg">
+      <div id="img">
+        <img class="image" src="logo.webp">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+        aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <svg class="sear" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+        <path
+          d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+          fill="currentColor"></path>
+      </svg>
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <ul class="navbar-nav mx-auto justify-content-between">
+          <li>
+            <img class="image" src="logo.webp">
+          </li>
+
+        </ul>
+        <div class="gap px-2">
+          <span class="mx-2">1 800 458 56 97</span>
+          <button class="btn"> Let's Talk</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Bottom Navbar -->
+    <nav class="navbar navbar-expand-lg">
+
+      <svg class="bn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+        <path
+          d="M3 3H11V11H3V3ZM3 13H11V21H3V13ZM13 3H21V11H13V3ZM13 13H21V21H13V13ZM15 5V9H19V5H15ZM15 15V19H19V15H15ZM5 5V9H9V5H5ZM5 15V19H9V15H5Z"
+          fill="currentColor"></path>
+      </svg>
+      <div class="collapse navbar-collapse bordr" id="navbarToggle">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" style="color: black;" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: black;" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: black;" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: black;" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: black;" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: black;" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <svg class="bn" xmlns="http://www.w3.org/2000/svg" class="bag" viewBox="0 0 24 24" width="32" height="32">
+        <path
+          d="M7.00488 7.99966V5.99966C7.00488 3.23824 9.24346 0.999664 12.0049 0.999664C14.7663 0.999664 17.0049 3.23824 17.0049 5.99966V7.99966H20.0049C20.5572 7.99966 21.0049 8.44738 21.0049 8.99966V20.9997C21.0049 21.5519 20.5572 21.9997 20.0049 21.9997H4.00488C3.4526 21.9997 3.00488 21.5519 3.00488 20.9997V8.99966C3.00488 8.44738 3.4526 7.99966 4.00488 7.99966H7.00488ZM7.00488 9.99966H5.00488V19.9997H19.0049V9.99966H17.0049V11.9997H15.0049V9.99966H9.00488V11.9997H7.00488V9.99966ZM9.00488 7.99966H15.0049V5.99966C15.0049 4.34281 13.6617 2.99966 12.0049 2.99966C10.348 2.99966 9.00488 4.34281 9.00488 5.99966V7.99966Z"
+          fill="currentColor"></path>
+      </svg>
+    </nav>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide col-sm-12">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active relate " data-bs-interval="10000">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/70_2-2-min.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class=" fs-5" style="color: white;">We make made to measure curtains + blinds
+            </h5>
+            <p class="top" style="color: white;">Sign up and receive 10% off <br> your first purchase!</p>
+            <!-- <p class=" fs-1" style="color: white;" >your first purchase!  -->
+
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/70_2-1-min.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white;">We make made to measure curtains + blinds
+            </h5>
+            <p class="  fs-1" style="color: white;">Sign up and receive 10% off <br> your first purchase!</p>
+            <!-- <p class="fs-1"style="color: white;">your first purchase!  -->
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/70_2-2-min.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="margin fs-5" style="color: white;">We make made to measure curtains + blinds
+            </h5>
+            <p class="  fs-1" style="color: white;">Sign up and receive 10% off <br> your first purchase!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="offer text-center  mt-5 ">
+      <h2>What We OFFER</h2>
+      <div class="div">
+
+        <p class="pack">Our huge range of made-to-measure clothing and home textile offers a variety of solutions and
+          styles.</p>
+
+      </div>
+      <h2 class="fs-5"> Read More</h2>
+    </div>
+    <div class="row cards  mt-5">
+
+      <div class="col-md-3">
+        <div class="thumbnail ">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/shop-category1-650x572.jpg" alt="Paris"
+            class="w-100">
+          <p><strong>Accessories</strong></p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail ">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/post-image4-650x572.jpg" alt="Paris"
+            class="w-100">
+          <p><strong>Blinds</strong></p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail ">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/shop-category2-650x572.jpg" alt="Paris"
+            class="w-100">
+          <p><strong>Curtains</strong></p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/shop-category3-650x572.jpg" alt="Paris"
+            class="w-100">
+          <p><strong>Cushions</strong></p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail ">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/shop-category4-650x572.jpg" alt="Paris"
+            class="w-100">
+          <p><strong>Decor</strong></p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/shop-category5-650x572.jpg" alt="Paris"
+            class="w-100">
+          <p><strong>DressMaking</strong></p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/portfolio-image21-650x572.jpg" alt="Paris"
+            class="w-100">
+          <p><strong>Fabric</strong></p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="//fabric.axiomthemes.com/wp-content/uploads/2022/08/shop-category6-650x572.jpg" alt="Paris"
+            class="w-100">
+          <p><strong>Suits</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="offer text-center  mt-5 ">
+    <h2>Our Shop</h2>
+    <div class="div">
+
+      <p class="pack">
+        <span>Summer</span>
+        <i>Collection</i>
+      </p>
+    </div>
+
+  </div>
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-3">
+        <div class="card1 bot">
+          <div class="discount">
+            <p class="k text-center px-2 py-1 mt-2" style="background-color:rgb(192, 154, 90); color: white;">-10%</p>
+          </div>
+          <img src="https://fabric.axiomthemes.com/wp-content/uploads/2020/05/product-image2-500x600.jpg"
+            class="card-img-top" alt="Image 1" class="w-100">
+          <div class="textn sttar">
+            <div class="up-text">
+              <h2 class="text-center mt-2 resize">Linen Fabric</h2>
+              <p class="text-center spn px-0" style="color: lightslategray;"><span>$45.00</span> $256.00</p>
+            </div>
+            <div class="star ">
+              <span class="fa fa-star checked chn"></span>
+              <span class="fa fa-star checked chn"></span>
+              <span class="fa fa-star checked chn"></span>
+              <span class="fa fa-star checked chn"></span>
+              <span class="fa fa-star checked chn"></span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card2">
+          <img src="https://fabric.axiomthemes.com/wp-content/uploads/2020/05/product-image7-500x600.jpg"
+            class="card-img-top" alt="Image 2" class="w-100">
+        </div>
+        <h2 class="text-center mt-2  resize">Satin Fabric</h2>
+        <p class="text-center" style="color: lightslategray;">$256.00</p>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card3 bot">
+          <div class="discount">
+            <p class="k text-center px-2 py-1 mt-2" style="background-color:rgb(192, 154, 90); color: white;">-22%</p>
+          </div>
+          <img src="https://fabric.axiomthemes.com/wp-content/uploads/2020/05/product-image6-500x600.jpg"
+            class="card-img-top" alt="Image 3" class="w-100">
+        </div>
+        <div class="textn">
+          <h2 class="text-center mt-2 resize">Cotton Fabric</h2>
+          <p class="text-center" style="color: lightslategray;">$256.00</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card4">
+          <img src="https://fabric.axiomthemes.com/wp-content/uploads/2020/05/product-image3-500x600.jpg"
+            class="card-img-top" alt="Image 4" class="w-100">
+        </div>
+        <h2 class="text-center mt-2 resize">Silk Fabric</h2>
+        <p class="text-center spn" style="color: lightslategray;"><span>$45.00</span> $256.00</p>
+      </div>
+
+      <div class="container text-center">
+        <button class="Browse justify-content-center mt-5">Browse All Items</button>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid" style="background-color: white;">
+
+    <div class="container text-center">
+
+      <div class="chooseus ">
+        <h2 class="fs-3 ch ">Choose us</h2>
+        <div class="div">
+
+          <p class="pack">We Offer the Highest Quality Fabrics and Ready-Made Clothes
+          </p>
+        </div>
+
+      </div>
+
+      <div class="row ">
+
+        <div class="col-md-4 ">
+          <div class="thumbnail ">
+            <img src="https://fabric.axiomthemes.com/wp-content/uploads/2022/08/typography-image1-890x664.jpg"
+              alt="Paris" class="w-100">
+          </div>
+          <h3 class="fs-4 text-start  mt-3 ">Our Fabric</h3>
+        </div>
+        <div class="col-md-4 ">
+          <div class="thumbnail ">
+            <img src="https://fabric.axiomthemes.com/wp-content/uploads/2020/05/portfolio-image2-890x664.jpg"
+              alt="Paris" class="w-100">
+
+          </div>
+          <h3 class="fs-4 text-start  mt-3">Shipping Pricelist</h3>
+        </div>
+        <div class="col-md-4 ">
+          <div class="thumbnail ">
+            <img src="https://fabric.axiomthemes.com/wp-content/uploads/2022/08/service-image16-890x664.jpg" alt="Paris"
+              class="w-100">
+
+          </div>
+          <h3 class="fs-4 text-start  mt-3">Children Collection</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid tee" style="background-color: #F6F5ED;">
+    <div class="TESTIMONIALS  text-center">
+      <h2 class="fs-5 test">TESTIMONIALS</h2>
+      <div class="div">
+
+        <p class="pack">What Our Clients Say
+        </p>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <!-- First Card -->
+        <div class="col-md-6 ">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text  card-text px-5 py-5 lh-2">Adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua ut enim ad minim. Adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+            <div class="justify-content-between align-items-center">
+              <div class=" mx-5 mb-5  d-flex align-items-center">
+                <img src="https://fabric.axiomthemes.com/wp-content/uploads/2022/08/testimonials-image3-150x150.jpg"
+                  alt="Profile 2" class="rounded-circle" style="width: 100px; height: 100px;">
+                <div class="ml-3">
+                  <p class="mb-0 mx-5">Mark Jankins</p>
+                  <small class="mb-0 mx-5">ArtExpert</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text  card-text px-5 py-5 lh-2">Adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua ut enim ad minim. Adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+            <div class="justify-content-between align-items-center">
+              <div class=" mx-5 mb-5  d-flex align-items-center">
+                <img src="https://fabric.axiomthemes.com/wp-content/uploads/2022/08/testimonials-image1-150x150.jpg"
+                  alt="Profile 2" class="rounded-circle" style="width: 100px; height: 100px;">
+                <div class="ml-3">
+                  <p class="mb-0 mx-5">Ann Dowson</p>
+                  <small class="mb-0 mx-5">Artist</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid " style="background-color: white;">
+      <div class="container mt-5">
+        <div class="row ">
+
+          <div class="col-md-6 left">
+
+            <div class="upper-text ">
+              <h3 class="weight">Great Variety</h3>
+              <h1 class="store ">Welcome to Fabric store<i>Online</i></h1>
+              <br>
+
+              <p class="Q mb-5">
+                Qadipiscing elit, sed do eiusmod tempor.</p>
+              <p class="k mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et dolore magna laboris nisi aliqua.</p>
+
+            </div>
+
+
+            <div class="container text-startt mt-5">
+
+              <button class="bt ">About Us</button>
+
+              <!-- <div id=""> -->
+              <i class="ri-phone-line phn mx-2 " style="background-color:rgb(245,245,237) ;"></i>
+              <span class="phone2">0 800 555 44 33</span>
+              <!-- </div> -->
+            </div>
+          </div>
+          <div class="col-md-6 pictures">
+            <div class="imzges">
+              <div class="images  mt-5">
+
+                <img
+                  src="https://fabric.axiomthemes.com/wp-content/uploads/elementor/thumbs/textile-img-1-px0s116tqx35l4j5ef0i8bdswddh3rvpq7lm7xnlgm.jpg"
+                  alt="" class=" w-100 float-left low-img">
+              </div>
+              <div class="image2">
+                <img
+                  src="https://fabric.axiomthemes.com/wp-content/uploads/elementor/thumbs/textile-img-3-px0s116taoxaky3e9g6fc07auvnk1ogt0etjzj7e3a.jpg"
+                  alt="" class="sec w-50 ">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: rgb(245,245,237);">
+      <div class="container mt-5">
+        <div class="row">
+
+          <div class="col-md-3 px-5 py-5 col1">
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                <path
+                  d="M15.0049 2.00281C17.214 2.00281 19.0049 3.79367 19.0049 6.00281C19.0049 6.73184 18.8098 7.41532 18.4691 8.00392L23.0049 8.00281V10.0028H21.0049V20.0028C21.0049 20.5551 20.5572 21.0028 20.0049 21.0028H4.00488C3.4526 21.0028 3.00488 20.5551 3.00488 20.0028V10.0028H1.00488V8.00281L5.54065 8.00392C5.19992 7.41532 5.00488 6.73184 5.00488 6.00281C5.00488 3.79367 6.79574 2.00281 9.00488 2.00281C10.2001 2.00281 11.2729 2.52702 12.0058 3.35807C12.7369 2.52702 13.8097 2.00281 15.0049 2.00281ZM11.0049 10.0028H5.00488V19.0028H11.0049V10.0028ZM19.0049 10.0028H13.0049V19.0028H19.0049V10.0028ZM9.00488 4.00281C7.90031 4.00281 7.00488 4.89824 7.00488 6.00281C7.00488 7.05717 7.82076 7.92097 8.85562 7.99732L9.00488 8.00281H11.0049V6.00281C11.0049 5.00116 10.2686 4.1715 9.30766 4.02558L9.15415 4.00829L9.00488 4.00281ZM15.0049 4.00281C13.9505 4.00281 13.0867 4.81869 13.0104 5.85355L13.0049 6.00281V8.00281H15.0049C16.0592 8.00281 16.923 7.18693 16.9994 6.15207L17.0049 6.00281C17.0049 4.89824 16.1095 4.00281 15.0049 4.00281Z"
+                  fill="currentColor"></path>
+              </svg></span>
+            <br>
+            <div class="tex">
+              <span class="k">Best Price</span>
+              <br>
+              <span class="c">Custom Subtitle</span>
+            </div>
+          </div>
+          <div class="col-md-3 px-5 py-5 col1">
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                <path
+                  d="M10.0544 2.0941C11.1756 1.13856 12.8248 1.13855 13.9461 2.09411L15.2941 3.24286C15.4542 3.37935 15.6533 3.46182 15.8631 3.47856L17.6286 3.61945C19.0971 3.73663 20.2633 4.9028 20.3805 6.37131L20.5214 8.13679C20.5381 8.34654 20.6205 8.54568 20.757 8.70585L21.9058 10.0539C22.8614 11.1751 22.8614 12.8243 21.9058 13.9456L20.757 15.2935C20.6206 15.4537 20.538 15.6529 20.5213 15.8627L20.3805 17.6281C20.2633 19.0967 19.0971 20.2628 17.6286 20.3799L15.8631 20.5208C15.6533 20.5376 15.4542 20.6201 15.2941 20.7566L13.9461 21.9053C12.8248 22.8609 11.1756 22.8608 10.0543 21.9053L8.70631 20.7566C8.54615 20.6201 8.34705 20.5376 8.1373 20.5209L6.37184 20.3799C4.9033 20.2627 3.73716 19.0966 3.61997 17.6281L3.47906 15.8627C3.46232 15.6529 3.37983 15.4538 3.24336 15.2936L2.0946 13.9455C1.13905 12.8243 1.13904 11.1752 2.09458 10.0539L3.24334 8.70589C3.37983 8.54573 3.46234 8.34654 3.47907 8.13678L3.61996 6.3713C3.73714 4.90278 4.90327 3.73665 6.3718 3.61946L8.13729 3.47857C8.34705 3.46183 8.54619 3.37935 8.70636 3.24286L10.0544 2.0941ZM12.6488 3.61632C12.2751 3.29782 11.7253 3.29781 11.3516 3.61632L10.0036 4.76509C9.5231 5.17456 8.92568 5.42201 8.29637 5.47223L6.5309 5.61312C6.04139 5.65219 5.65268 6.04089 5.61362 6.53041L5.47272 8.29593C5.4225 8.92521 5.17505 9.52259 4.76559 10.0031L3.61683 11.3511C3.29832 11.7248 3.29831 12.2746 3.61683 12.6483L4.76559 13.9963C5.17506 14.4768 5.4225 15.0743 5.47275 15.7035L5.61363 17.469C5.65268 17.9585 6.04139 18.3473 6.53092 18.3863L8.29636 18.5272C8.92563 18.5774 9.5231 18.8249 10.0036 19.2344L11.3516 20.3831C11.7254 20.7016 12.2751 20.7016 12.6488 20.3831L13.9969 19.2343C14.4773 18.8249 15.0747 18.5774 15.704 18.5272L17.4695 18.3863C17.959 18.3472 18.3478 17.9585 18.3868 17.469L18.5277 15.7035C18.5779 15.0742 18.8253 14.4768 19.2349 13.9964L20.3836 12.6483C20.7022 12.2746 20.7021 11.7249 20.3836 11.3511L19.2348 10.0031C18.8253 9.52259 18.5779 8.92519 18.5277 8.2959L18.3868 6.53041C18.3478 6.0409 17.959 5.65219 17.4695 5.61312L15.704 5.47224C15.0748 5.42203 14.4773 5.17455 13.9968 4.76508L12.6488 3.61632ZM14.8284 7.75718L16.2426 9.1714L9.17154 16.2425L7.75733 14.8282L14.8284 7.75718ZM10.2322 10.232C9.64641 10.8178 8.69667 10.8178 8.11088 10.232C7.52509 9.6463 7.52509 8.69652 8.11088 8.11073C8.69667 7.52494 9.64641 7.52494 10.2322 8.11073C10.818 8.69652 10.818 9.6463 10.2322 10.232ZM13.7677 15.8889C14.3535 16.4747 15.3032 16.4747 15.889 15.8889C16.4748 15.3031 16.4748 14.3534 15.889 13.7676C15.3032 13.1818 14.3535 13.1818 13.7677 13.7676C13.1819 14.3534 13.1819 15.3031 13.7677 15.8889Z"
+                  fill="currentColor"></path>
+              </svg></span>
+            <br>
+            <div class="tex">
+              <span class="k">Fast Shipping</span>
+              <br>
+              <span class="c">Custom Subtitle</span>
+            </div>
+          </div>
+          <div class="col-md-3 px-5 py-5 col1">
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                <path
+                  d="M12.0049 0.999695C14.7663 0.999695 17.0049 3.23827 17.0049 5.99969V7.99969H20.0049C20.5572 7.99969 21.0049 8.44741 21.0049 8.99969V20.9997C21.0049 21.552 20.5572 21.9997 20.0049 21.9997H4.00488C3.4526 21.9997 3.00488 21.552 3.00488 20.9997V8.99969C3.00488 8.44741 3.4526 7.99969 4.00488 7.99969H7.00488V5.99969C7.00488 3.23827 9.24346 0.999695 12.0049 0.999695ZM17.0049 10.9997H15.0049V11.9997C15.0049 12.552 15.4526 12.9997 16.0049 12.9997C16.5177 12.9997 16.9404 12.6137 16.9982 12.1163L17.0049 11.9997V10.9997ZM9.00488 10.9997H7.00488V11.9997C7.00488 12.552 7.4526 12.9997 8.00488 12.9997C8.51772 12.9997 8.94039 12.6137 8.99815 12.1163L9.00488 11.9997V10.9997ZM12.0049 2.99969C10.4072 2.99969 9.10122 4.24861 9.00998 5.82342L9.00488 5.99969V7.99969H15.0049V5.99969C15.0049 4.40201 13.756 3.09603 12.1812 3.00479L12.0049 2.99969Z"
+                  fill="currentColor"></path>
+              </svg></span>
+            <br>
+            <div class="tex">
+              <span class="k">Buyer's Protection</span>
+              <br>
+              <span class="c">Custom Subtitle</span>
+            </div>
+          </div>
+          <div class="col-md-3 px-5 py-5 col1">
+            <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                <path
+                  d="M22.0049 5.99979H15.0049C11.6912 5.99979 9.00488 8.68608 9.00488 11.9998C9.00488 15.3135 11.6912 17.9998 15.0049 17.9998H22.0049V19.9998C22.0049 20.5521 21.5572 20.9998 21.0049 20.9998H3.00488C2.4526 20.9998 2.00488 20.5521 2.00488 19.9998V3.99979C2.00488 3.4475 2.4526 2.99979 3.00488 2.99979H21.0049C21.5572 2.99979 22.0049 3.4475 22.0049 3.99979V5.99979ZM15.0049 7.99979H23.0049V15.9998H15.0049C12.7957 15.9998 11.0049 14.2089 11.0049 11.9998C11.0049 9.79065 12.7957 7.99979 15.0049 7.99979ZM15.0049 10.9998V12.9998H18.0049V10.9998H15.0049Z"
+                  fill="currentColor"></path>
+              </svg></span>
+            <br>
+            <div class="tex">
+              <span class="k">Live Support</span>
+              <br>
+              <span class="c">Custom Subtitle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container-fluid mt-5" style="background-color:rgb(21,22,24);">
+
+      <div class="container" style="border-bottom: 1px solid rgba(234, 223, 223, 0.234);">
+
+        <div class="row">
+
+          <div class="col-md-4 left-foot">
+            <img src="https://fabric.axiomthemes.com/wp-content/uploads/2022/08/logo-combine-l.png" class="w-auto">
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <h2 style="color: white;" class="fs-5 mt-5">Newsletter Signup</h2>
+            <br>
+            <label style="color: #d2d3d5; opacity: .5; border-bottom: 2px solid gray; padding-top: 5px;"><svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                <path
+                  d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"
+                  fill="currentColor"></path>
+              </svg> Enter Your Email Addre...</label> <svg style="color: white;" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" width="32" height="32">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                fill="currentColor" class="m-5 ph"></path>
+            </svg>
+            <br>
+            <br>
+            <div class="priv">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                <path
+                  d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM5 5V19H19V5H5Z"
+                  fill="rgba(251,248,248,0.44)"></path>
+              </svg><label style="color: white; opacity: 0.5;" for=" I agree to the">I agree to the</label><span
+                style="color: white; border-bottom: 1px solid white;" class="mx-2">PrivacyPolicy.</span></p>
+
+            </div>
+          </div>
+          <div class="col-md-8 right-foot">
+            <div class="head mx-5">
+              <h1 class=" heading" style="color: white;">We Develop & Create Modern Textile <br> Products</h1>
+            </div>
+
+            <div class="row mt-5 gx-0 px-0">
+              <div class="ico1 col-md-4 ">
+                <ul>
+                  <li class="f" style="color: #ffffff; ">Social</li>
+                  <li class="font" style="color: white;">FaceBook</li>
+                  <li class="font" style="color: white;">Twitter</li>
+                  <li class="font" style="color: white;"> Dribble</li>
+                  <li class="font" style="color: white;">Instagram</li>
+                </ul>
+              </div>
+              <div class="ico1 col-md-4 ">
+
+                <ul>
+                  <li class="f" style="color: white;">Menu</li>
+                  <li class="font" style="color: white;">Home</li>
+                  <li class="font" style="color: white;">Service</li>
+                  <li class="font" style="color: white;"> About Us</li>
+                  <li class="font" style="color: white;">Blog</li>
+                  <li class="font" style="color: white;">Blog</li>
+                  <li class="font" style="color: white;">Contacts</li>
+                </ul>
+              </div>
+              <div class="ico2 col-md-4 ">
+                <ul>
+                  <li class="f" style="color: white;">Say Hello</li>
+                  <li class="font" style="color: white;">info@email.com</li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+          <p style="color: white;" class="mb-5 foooot mt-3">
+            AxiomThemes © 2024. All Rights Reserved</p>
+        </div>
+      </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
